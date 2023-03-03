@@ -1,0 +1,14 @@
+<!--pages/login/index.wxml-->
+<image class="logoimg" src="/images/logo.jpg"></image>
+<!-- <view class="logoinput">
+  <van-field value="{{ user }}" placeholder="请输入账号" border="{{ false }}" bind:change="onChange" />
+</view>
+<view class="logoinput">
+  <van-field value="{{ password }}" placeholder="请输入密码" border="{{ false }}" bind:change="onChange" />
+</view> -->
+<button class="logobtn" bindtap="loginClicik" open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">
+  <van-image  class="iconimg" width="40" height="40" src="/images/weixin.png" /><p class="icontitle">微信用户快捷登录</p>
+</button>
+<button class="logobtn2" bindtap="phoneClicik">
+  <van-image class="iconimg" width="40" height="40" src="/images/icon1.png" /><p class="icontitle">使用手机号登录</p>
+</button>

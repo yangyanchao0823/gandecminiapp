@@ -1,0 +1,67 @@
+/* pages/login/index.wxss */
+.logoimg {
+  width: 160px;
+  height: 160px;
+  margin-left: calc(50% - 80px);
+  object-fit: cover;
+  margin-top: 170px;
+}
+
+.logoinput {
+  margin-top: 30px;
+  width: 80%;
+  margin-left: 10%;
+  border-bottom: 1px solid rgba(187, 187, 187, 1);
+}
+
+.van-field__control {
+  font-size: 20px;
+
+}
+
+.logobtn {
+  margin-top: 60px;
+  width: 80%;
+  margin-left: 10%;
+  height: 49px;
+  line-height: 49px;
+  color: white;
+  border-radius: 4px;
+  background-color: rgba(80, 182, 116, 1);
+  color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(80, 182, 116, 1);
+  font-size: 20px;
+  text-align: left;
+}
+
+.logobtn2 {
+  margin-top: 30px;
+  width: 80%;
+  margin-left: 10%;
+  height: 49px;
+  line-height: 49px;
+  color: white;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(80, 182, 116, 1);
+  border: 1px solid rgba(80, 182, 116, 1);
+  font-size: 20px;
+  text-align: left;
+}
+
+.iconimg {
+  position: relative;
+  top: 5px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+}
+
+.icontitle {
+  position: relative;
+  top: -9px;
+  left: 35px;
+}
+button::after{
+  border: none !important;
+}

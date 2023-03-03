@@ -1,0 +1,13 @@
+/* pages/phonelogin/index.wxss */
+.phonelogin{
+  width: 96%;
+  margin-left: 2%;
+}
+.loginbtn .van-button__text{
+  color: rgba(190, 190, 190, 1) !important;
+  font-size: 20px;
+}
+.loginbtn{
+  display: block;
+  margin-top: 20px;
+}
